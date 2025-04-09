@@ -129,3 +129,14 @@ sudo su
 sudo kubeadm join master0:6443 --token hh7mxv.j3uhkvw14gzci7c3 \
 	--discovery-token-ca-cert-hash sha256:9ca24870ce3c5ccbc1cd069f6d1fef2514b0199b6048f67b6a24148fc0cb023d
 ```
+
+# 9) Check K8s
+```
+kubectl get nodes
+```
+-> sudo 쓰지 말고 그냥 control에서 실행시켜봐라
+
+
+# 출처
+https://www.youtube.com/watch?v=I-zluW0ckrw&t  
+하단에 명령어가 있지만 편집이 몹시 좋지 않아 여기서 편집한다.
