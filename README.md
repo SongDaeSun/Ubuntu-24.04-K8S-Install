@@ -63,8 +63,6 @@ sudo apt install -y curl gnupg2 software-properties-common apt-transport-https c
 ### Next, add containerd repository using following set of commands.
 ```
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg  | sudo gpg --dearmour -o /etc/apt/trusted.gpg.d/containerd.gpg
-```
-```
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 ```
 ```
