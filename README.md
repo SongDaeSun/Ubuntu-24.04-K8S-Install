@@ -69,6 +69,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 ### 오류대응
 만일 Hash Sum missmatch 오류가 발생하면
 ```
+sudo apt-get clean
 sudo rm -rf /var/lib/apt/lists/*
 sudo apt-get upgrade -y
 sudo apt-get update
