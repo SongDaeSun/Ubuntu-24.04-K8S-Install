@@ -118,7 +118,7 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 # 7) Install Calico Network Plugin - ONLY MASTER
 ```
-kubectl create -f https://raw.githubusercontent.com/projectcalico/calico/v3.29.3/manifests/calico.yaml
+kubectl create -f https://raw.githubusercontent.com/projectcalico/calico/v3.30.2/manifests/calico.yaml
 ```
 
 # 8) Join Kubernetes Cluster - ONLY WORKER
